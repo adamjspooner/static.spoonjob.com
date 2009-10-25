@@ -35,13 +35,13 @@ body {
 }
 
 blockquote {
-	background: url(/images/site/ldquo.png) 8px 0 no-repeat;
+	background: url(http://static.spoonjob.com/img/ldquo.png) 8px 0 no-repeat;
 	margin-top: -4px;
 	padding: 4px 0 0 40px;
 }
 
 h1 {
-	background: url(/images/site/border.bottom.png) 0 100% repeat-x;
+	background: url(http://static.spoonjob.com/img/border.bottom.png) 0 100% repeat-x;
 	font-size: 36px;
 	margin-top: 76px;
 	padding: 30px 10px 23px;
@@ -57,8 +57,8 @@ h6 {
 }
 
 html {
-	background: #EEE url(/images/site/background.png) 0 0 repeat;
-	1background: #EEE url(/images/site/baseline.png) 0 0 repeat;
+	background: #EEE url(http://static.spoonjob.com/img/background.png) 0 0 repeat;
+	1background: #EEE url(http://static.spoonjob.com/img/baseline.png) 0 0 repeat;
 	height: 100%;
 	width: 100%;
 }
@@ -100,7 +100,7 @@ p { margin-bottom: 24px; }
 	width: auto;
 }
 #footer .hr {
-	background: url(/images/site/border.top.png) 0 0 repeat-x;
+	background: url(http://static.spoonjob.com/img/border.top.png) 0 0 repeat-x;
 	height: 4px;
 }
 #footer .rss {
@@ -121,7 +121,7 @@ p { margin-bottom: 24px; }
 }
 
 #footer,
-#header { background: #FFF url(/images/site/background.light.png) 0 0 repeat; }
+#header { background: #FFF url(http://static.spoonjob.com/img/background.light.png) 0 0 repeat; }
 
 #header a:visited { color: #007BF9; }
 #header p {
@@ -138,7 +138,7 @@ p { margin-bottom: 24px; }
 	top: -2px;
 }
 #header .hr {
-	background: url(/images/site/border.bottom.png) 0 0 repeat-x;
+	background: url(http://static.spoonjob.com/img/border.bottom.png) 0 0 repeat-x;
 	clear: both;
 	height: 3px;
 }
@@ -190,7 +190,7 @@ p { margin-bottom: 24px; }
 
 .fin {
 	border-bottom: 0 !important;
-	background: url(/images/site/fin.png) 0 0 no-repeat;
+	background: url(http://static.spoonjob.com/img/fin.png) 0 0 no-repeat;
 	display: inline-block;
 	height: 12px;
 	position: relative;
@@ -207,7 +207,7 @@ blockquote,
 .quote q { font-style: italic; }
 .quote {
 	color: #666;
-	background: #FFF url(/images/site/background.light.png) 0 0 repeat;
+	background: #FFF url(http://static.spoonjob.com/img/background.light.png) 0 0 repeat;
 	padding: 31px 30px 37px;
 	position: relative;
 }
@@ -229,7 +229,7 @@ blockquote,
 	right: 30px;
 }
 .quote .hr {
-	background: url(/images/site/border.top.png) 0 0 repeat-x;
+	background: url(http://static.spoonjob.com/img/border.top.png) 0 0 repeat-x;
 	height: 4px;
 	left: 0;
 	position: absolute;
@@ -237,13 +237,13 @@ blockquote,
 	width: 800px;
 }
 .quote .bottom {
-	background: url(/images/site/border.bottom.png) 0 0 repeat-x;
+	background: url(http://static.spoonjob.com/img/border.bottom.png) 0 0 repeat-x;
 	bottom: 0;
 	top: auto;
 }
 
 .rss a {
-	background: url(/images/site/rss.png) 0 0 no-repeat;
+	background: url(http://static.spoonjob.com/img/rss.png) 0 0 no-repeat;
 	border-right: 1px solid #CCC;
 	display: block;
 	height: 60px;
