@@ -40,17 +40,21 @@ blockquote {
 	padding: 4px 0 0 40px;
 }
 
-h1 {
-	background: url(http://static.spoonjob.com/img/border.bottom.png) 0 100% repeat-x;
+h1,
+h2,
+h3 {
+	background: url(border.bottom.png) 0 100% repeat-x;
+	color: #007BF9;
 	font-size: 36px;
 	margin-top: 76px;
 	padding: 30px 10px 23px;
 }
-h1 a {
-	color: #007BF9 !important;
-	text-decoration: none !important;
+h1 a { color: #007BF9 !important; }
+h2,
+h3 {
+	color: #999;
+	font-size: 24px;
 }
-
 h6 {
 	font-size: 18px;
 	font-weight: normal;
