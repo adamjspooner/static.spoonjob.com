@@ -33,6 +33,7 @@ body {
 	color: #444;
 	font: 16px/24px Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;
 }
+@media only screen and (max-device-width:480px) { body{ -webkit-text-stroke: 0 black; } }
 
 blockquote {
 	background: url(http://static.spoonjob.com/img/ldquo.png) 8px 0 no-repeat;
@@ -43,7 +44,7 @@ blockquote {
 h1,
 h2,
 h3 {
-	background: url(border.bottom.png) 0 100% repeat-x;
+	background: url(http://static.spoonjob.com/img/border.bottom.png) 0 100% repeat-x;
 	color: #007BF9;
 	font-size: 36px;
 	margin-top: 76px;
