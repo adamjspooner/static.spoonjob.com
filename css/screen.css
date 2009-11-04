@@ -50,7 +50,10 @@ h3 {
 	margin-top: 76px;
 	padding: 30px 10px 23px;
 }
-h1 a { color: #007BF9 !important; }
+h1 a {
+	color: #007BF9 !important;
+	text-decoration: none !important;
+}
 h2,
 h3 {
 	color: #999;
