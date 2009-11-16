@@ -1,0 +1,224 @@
+/* ----------------------------------------------------------------------------
+   CSS Reset (kills default browser styles)
+---------------------------------------------------------------------------- */
+
+/* © 2008 Eric Meyer: http://meyerweb.com/eric/tools/css/reset/ */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td 
+{margin:0;padding:0;border:0;outline:0;font-size:100%;background:transparent;}
+body{line-height:1;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+
+/* ----------------------------------------------------------------------------
+   SITE
+---------------------------------------------------------------------------- */
+
+a { color: #6F6BBF; }
+a:visited { text-decoration: none; }
+a:hover,
+a:active {
+	color: #D4D2EC;
+	text-decoration: none;
+}
+
+abbr { border-bottom: 1px dotted #CCC; }
+
+body {
+	-webkit-text-stroke: 1px transparent;
+	color: #444;
+	font: 14px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0 auto;
+	padding: 0 20px;
+	width: 840px;
+}
+@media only screen and (max-device-width:480px) {
+	body{ -webkit-text-stroke: 0 black; }
+}
+
+h2 {
+	background: url(http://static.spoonjob.com/img/work/sprite.png) 0 0 no-repeat;
+	border-top: 5px solid #6F6BBF;
+	height: 57px;
+	margin-bottom: 25px;
+}
+#newspring_church h2 { background-position: 0 -77px; }
+#okcupid h2 { background-position: 0 -134px; }
+#helloquizzy h2 {
+	background-position: 0 -191px;
+	height: 61px;
+	margin-bottom: 21px;
+}
+#crazy_blind_date h2 { background-position: 0 -252px; }
+#xblabs h2 { background-position: 0 -309px; }
+#bishop_allen h2 { background-position: 0 -708px; }
+#berens_wedding h2 { background-position: 0 -366px; }
+#truelove_wedding h2 { background-position: 0 -423px; }
+#adam_spooner h2 { background-position: 0 -480px; }
+#allison_spooner h2 { background-position: 0 -537px; }
+#lead_neophyte h2 { background-position: 0 -594px; }
+#riverlakes_church h2 { background-position: 0 -651px; }
+
+
+h4 { color: #000;	}
+
+h6 {
+	background: #6F6BBF url(http://static.spoonjob.com/img/work/sprite.png) 0 -767px no-repeat;
+	float: left;
+	height: 119px;
+	padding: 30px 0 80px;
+	width: 240px;
+}
+
+html {
+	1background: #FFF url(http://static.spoonjob.com/img/work/baseline.png) repeat;
+	background: #FFF;
+	height: 100%;
+	width: 100%;
+}
+
+strong {
+	color: #000;
+	line-height: 20px;
+}
+
+#footer { margin-top: -44px; }
+#footer p {
+	float: right;
+	margin-bottom: 21px;
+	position: relative;
+	top: 90px;
+	width: 450px;
+}
+
+#masthead { margin-bottom: 140px; }
+#masthead a { text-decoration: none; }
+#masthead ul {
+	float: right;
+	margin-bottom: 120px;
+}
+#masthead ul li { float: left; }
+#masthead ul li a {
+	border-left: 1px solid #DDD;
+	display: block;
+	float: left;
+	font-size: 12px;
+	padding: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 69px;
+}
+#masthead ul li a:hover { background: #F0F0F8; }
+#p_work #n_work a {
+	background: #6F6BBF;
+	color: #FFF;
+	cursor: default;
+}
+
+#welcome {
+	float: right;
+	padding: 0 10px;
+	width: 300px;
+}
+
+#wordmark {
+	background: #6F6BBF;
+	float: left;
+	padding: 154px 0 28px;
+	width: 240px;
+}
+#wordmark a {
+	background: url(http://static.spoonjob.com/img/work/sprite.png) 0 0 no-repeat;
+	color: #FFF;
+	display: block;
+	height: 77px;
+	width: 240px;
+}
+.byline {
+	color: #999;
+	font-size: 12px;
+}
+.screenshots,
+.imagery p {
+	background: #F9F9F9;
+	border: 10px solid #EEE;
+	border-top: 0;
+	height: 580px;
+	overflow: hidden;
+	position: relative;
+	width: 560px;
+}
+.imagery p {
+	border-top: 10px solid #EEE;
+	margin-bottom: -2px;
+}
+.screenshots li {
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+.section {
+	border-top: 1px solid #000;
+	clear: both;
+	margin-bottom: 112px;
+}
+.section .details {
+  float: left;
+  width: 240px;
+}
+.section .details h4,
+.section .details p,
+.section .details ul { padding: 0 20px; }
+.section .details ul { margin-bottom: 21px; }
+.section .details li {
+	border-left: 1px solid #DDD;
+	padding-left: 12px;
+}
+.section .details li em {
+  color: #999;
+  font-size: 12px;
+  font-style: normal;
+  padding-left: 10px;
+}
+.section .imagery {
+	float: right;
+	padding: 24px 0 0 10px;
+	width: 580px;
+}
+.selector {
+	background: #EEE;
+	padding: 13px;
+	height: 24px;
+}
+.selector li { float: left; }
+.selector a {
+	background: url(http://static.spoonjob.com/img/work/selectors.png) 0 0 no-repeat;
+	display: block;
+	float: left;
+	height: 24px;
+	margin-right: 13px;
+	width: 24px;
+}
+.selector a:hover { background-position: 0 50%; }
+.selector a.current {
+	background-position: 0 100%;
+	cursor: default;
+}
+
+.hr hr { display: none; }
+
+/* ----------------------------------------------------------------------------
+   HACKS
+---------------------------------------------------------------------------- */
+.hidden{display:none;}
+.ir{text-indent:-20000em;overflow:hidden;}
+.clearfix:after,.section:after{clear:both;content:'.';display:block;visibility:hidden;height:0;}
+.clearfix,.section{display:inline-block;}
+* html .clearfix,* html .section{height:1%;}
+.clearfix,.section{display:block;}
