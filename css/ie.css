@@ -1,0 +1,11 @@
+h1,
+.quote { zoom: 1; }
+#footer ul { 
+	margin-top: 0 !important;
+	margin-top: 6px;
+}
+#sub_content a {
+	display: block;
+	height: 16px;
+	line-height: 16px;
+}
