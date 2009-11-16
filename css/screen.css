@@ -193,7 +193,10 @@ p { margin-bottom: 24px; }
 #sub_content a {
 	background: url(http://static.spoonjob.com/img/icons.png) 0 0 no-repeat;
 	color: #999;
-	padding: 1px 0 0 26px;
+	display: block;
+	height: 16px;
+	line-height: 16px;
+	padding-left: 26px;
 	text-decoration: none;
 }
 #sub_content a:hover,
@@ -211,7 +214,7 @@ p { margin-bottom: 24px; }
 #sub_content h3 { margin-top: 51px; }
 #sub_content li {
 	font-size: 14px;
-	line-height: 32px;
+	padding: 5px 0 9px;
 }
 #sub_content .resume { background-position: 0 -17px; }
 #sub_content .twitter { background-position: 0 -34px; }
