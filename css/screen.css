@@ -66,12 +66,16 @@ h6 {
 
 html {
 	background: #EEE url(http://static.spoonjob.com/img/background.png) 0 0 repeat;
-	1background: #EEE url(http://static.spoonjob.com/img/baseline.png) 0 0 repeat;
 	height: 100%;
 	width: 100%;
 }
 
 p { margin-bottom: 24px; }
+
+q[lang-=fr] { quotes: “\201C” “\201D”; }
+q[lang-=en] { quotes: “\00AB” “\00BB”; }
+q:before { content: open-quote }
+q:after { content: close-quote }
 
 #footer { clear: both; }
 #footer p {
@@ -86,7 +90,7 @@ p { margin-bottom: 24px; }
 	width: 520px;
 	padding: 0 20px;
 }
-#footer ul { margin: -22px 0 16px; }
+#footer ul { margin: -22px 0 15px; }
 #footer li { line-height: 23px; }
 #footer #etc {
 	border-left: 1px solid #CCC;
