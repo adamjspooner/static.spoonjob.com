@@ -72,10 +72,10 @@ html {
 
 p { margin-bottom: 24px; }
 
-q[lang-=fr] { quotes: “\201C” “\201D”; }
-q[lang-=en] { quotes: “\00AB” “\00BB”; }
-q:before { content: open-quote }
-q:after { content: close-quote }
+q:before,
+q:before { font-style: normal !important; }
+q:before { content: "\201C"; }
+q:after { content: "\201D"; }
 
 #footer { clear: both; }
 #footer p {
