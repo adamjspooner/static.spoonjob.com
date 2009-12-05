@@ -41,6 +41,11 @@ blockquote {
 	padding: 4px 0 0 40px;
 }
 
+code {
+	font-family: "Courier New", Courier, monospace;
+	padding: 2px;
+}
+
 h1,
 h2,
 h3 {
@@ -71,6 +76,15 @@ html {
 }
 
 p { margin-bottom: 24px; }
+
+pre code {
+	border: 1px dashed #DDD;
+	border-left: 0;
+	border-right: 0;
+	display: block;
+	margin-bottom: 24px;
+	padding: 9px 15px;
+}
 
 q:before,
 q:before { font-style: normal !important; }
@@ -132,6 +146,7 @@ q:after { content: "\201D"; }
 	padding: 20px 0;
 }
 
+code,
 #footer,
 #header { background: #FFF url(http://static.spoonjob.com/img/background.light.png) 0 0 repeat; }
 
