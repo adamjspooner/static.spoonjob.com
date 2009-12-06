@@ -47,8 +47,8 @@ code {
 }
 
 h1,
-h2,
-h3 {
+#sub_content h2,
+#sub_content h3 {
 	background: url(http://static.spoonjob.com/img/border.bottom.png) 0 100% repeat-x;
 	color: #007BF9;
 	font-size: 36px;
