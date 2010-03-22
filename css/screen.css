@@ -33,7 +33,7 @@ body {
 	color: #444;
 	font: 16px/24px Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;
 }
-@media only screen and (max-device-width:480px) { body{ -webkit-text-stroke: 0 black; } }
+@media only screen and (max-device-width:480px) { body { -webkit-text-stroke: 0 black; } }
 
 blockquote {
 	background: url(http://static.spoonjob.com/img/ldquo.png) 8px 0 no-repeat;
@@ -200,6 +200,26 @@ code,
 	bottom: 0;
 	top: auto;
 }
+
+#infused {
+	font-size: 13px;
+	line-height: 19px;
+	padding: 5px 20px;
+}
+#infused a { color: #777; }
+#infused a:hover { color: #77B7F9; }
+
+#infused img { margin: 10px 0 9px; }
+
+#powered_by {
+	border: 0;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+#powered_by a { color: #4695E6; }
+#powered_by a:hover { color: #007BF9; }
 
 #main_content {
 	float: left;
