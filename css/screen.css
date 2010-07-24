@@ -286,8 +286,9 @@ code,
 	float: right;
 	width: 250px;
 }
+.meta p,
+.meta ul { border-bottom: 1px solid #DDD; }
 .meta p {
-	border-bottom: 1px solid #DDD;
 	color: #666;
 	padding: 0 20px 22px;
 }
@@ -295,7 +296,8 @@ code,
 	font-size: 14px;
 	font-style: italic;
 	line-height: 21px;
-	padding: 3px 20px 0;
+	margin-bottom: 24px;
+	padding: 3px 20px 22px;
 }
 .meta li { display: inline; }
 .meta a {
