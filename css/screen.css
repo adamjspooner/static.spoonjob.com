@@ -124,7 +124,7 @@ pre code {
 }
 
 q:before,
-q:before {
+q:after {
   color: #777;
   font-family: "Plan Grotesque Medium";
   font-style: normal !important;
