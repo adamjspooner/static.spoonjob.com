@@ -76,7 +76,8 @@ strong em {
 }
 
 h1, h2, h3, h4, h5, h6,
-.quote .author {
+.quote .author,
+#footer #etc p {
   font-family: "Plan Grotesque Medium";
   font-style: normal;
   font-weight: bold;
@@ -103,7 +104,10 @@ h3 {
 }
 #sub_content h2,
 #sub_content h3 { font-size: 21px; }
-.body h2 { padding: 22px 0 2px; }
+.body h2 {
+  position: relative;
+  top: -2px;
+}
 h6 { font-size: 18px; }
 
 html {
@@ -147,7 +151,7 @@ q:after { content: '”'; }
   width: 520px;
   padding: 0 20px;
 }
-#footer ul { margin: -22px 0 15px; }
+#footer ul { margin: 4px 0 15px; }
 #footer li { line-height: 23px; }
 #footer #etc {
   border-left: 1px solid #CCC;
@@ -287,7 +291,7 @@ code,
   position: relative;
   width: 800px;
 }
-#page { padding: 32px 0 14px; }
+#page { padding: 39px 0 14px; }
 #p_about #page { padding-bottom: 185px; }
 
 .body {
@@ -297,7 +301,7 @@ code,
 }
 .body a { -webkit-transition: color 0.25s ease-in-out; }
 .body,
-.meta { padding-top: 24px; }
+.meta { padding-top: 30px; }
 .meta {
   float: right;
   width: 250px;
